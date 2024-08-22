@@ -1,0 +1,308 @@
+docs
+id autonumerico
+doc texto corto 255   lave primaria 
+
+
+
+
+
+EAPBMovRCaRS
+CodEPS texto corto 6   llave primaria
+NomEPS texto corto 85
+Regimen texto corto 24
+CodEPSMovilidad texto corto 6
+NomEPSMovilidad texto corto 85 
+RegimenMovilidad texto corto 24
+
+
+
+
+
+EAPBMovRSaRC
+
+CodEPS texto corto 6   llave primaria 
+NomEPS texto corto 85 
+Regimen texto corto 24
+CodEPSMovilidad texto corto 6
+NomEPSMovilidad texto corto 85
+RegimenMovilidad texto corto 24
+
+
+
+
+
+GrpPoblacional
+
+CodGrpPob  entero largo
+CodGrpPob2  Texto corto 3
+GrpPoblacional Texto corto 82
+LC2339 boleano
+
+
+
+
+
+MC
+SerialBDUA  numerico 
+CODEPS  Texto largo
+TD  Texto corto 2
+ND  Texto corto 25
+PApellido  Texto corto 25
+SApellido  Texto corto 30
+PNombre  Texto corto 25
+SNombre  Texto corto 30
+FecNace  Texto corto 10
+Sexo  Texto corto 2
+TA  Texto corto 2
+RelPar  Texto corto 2
+GrPob  numerico
+NS  Texto corto 2
+Depto  Texto corto 2
+Mpio  Texto corto 3
+Zona  Texto corto 2
+FECAFSSS  Texto corto 10
+FecAFEPS  Texto corto 10
+Tps_grp_pbl  Texto corto 2
+Tps_prt_etn  Texto corto 2
+Mod  Texto corto 3
+EstAfil  Texto corto 2
+FecTermina  Texto corto 10
+GrpFliarCot  numerico
+Portabilidad  Texto corto 2
+CodIpsPrimaria  Texto corto 15
+MetGrpPob  TTexto corto 2
+SubSisb_IV  Texto corto 15
+MarcaSisb_IV_III  Texto corto 15
+MarcaLC  Texto corto 15
+RFPAF  Texto corto 25
+RFSAF  Texto corto 25
+RFPNF  Texto corto 25
+RFSNF  Texto corto 25
+RFFONETICO  Texto corto 100
+RPAS  Texto corto 25
+RSAS  Texto corto 25
+RPNS  Texto corto 25
+RSNS  Texto corto 25
+RSOUNDEX  Texto corto 100
+RPAM  Texto corto 25 
+RSAM  Texto corto 25
+RPNM  Texto corto 25
+RSNM  Texto corto 25 
+RMETAPHONE  Texto corto 100
+
+
+
+
+
+ME
+cod_ent texto corto 6
+t_cot texto corto 2
+N_cot texto corto 10
+TD texto corto 2
+ND texto corto 14
+PApellido texto corto 20
+SApellido texto corto 25
+PNombre texto corto 20 
+SNombre texto corto 25
+FecNace texto corto 255
+SEXO_USU texto corto 1
+TPAF_USU texto corto 1
+PARENT texto corto 30
+DEP texto corto  2
+MATE_USU texto corto 25
+ZONA_USU texto corto 1
+FING_USU texto corto 255
+ID_Afiliado texto corto 40 
+RFPAF texto corto 255
+RFSAF texto corto 255
+RFPNF texto corto 255
+RFSNF  texto corto 255
+RFFONETICO texto corto 255
+RPAS texto corto 255
+RSAS texto corto 255
+RPNS texto corto 255
+RSNS texto corto 255
+RSOUNDEX  texto corto
+RPAM  texto corto 255
+RSAM texto corto 255
+RPNM texto corto 255
+RSNM texto corto 255
+RMETAPHONE texto corto 255
+Consecutivo autonumeracion    llave primaria 
+SerialBDUA numero
+
+
+
+
+ML
+TipoIdentidad  Texto corto 2
+NumIdentidad   Texto corto 25
+PrimerApellido  Texto corto 25
+SegundoApellido  Texto corto 30
+PrimerNombre  Texto corto 25
+SegundoNombre  Texto corto 30 
+FechaNacimiento  Texto corto 10
+Sexo  Texto corto 2
+CodMunResidencia  Texto corto 5
+CodTipoPobEsp  Texto corto 2
+Etnia  Texto corto 2
+NombreResguardo  Texto corto 100
+TipoEntidad  Texto corto 2
+NumEntidad  Texto corto 5
+NomEntidad  Texto corto 100
+FechaCorte  Texto corto 10
+TipoIdTitular  Texto corto 2
+NroIdTitular  Texto corto 25
+Estado  Texto corto 2
+NomEstado  Texto corto 100
+Id  autonumeracion entero largo
+SerialBDUA   numerico entero largo
+ID_Afiliado  Texto corto 40
+RFPAF  Texto corto 30
+RFSAF  Texto corto 30
+RFPNF  Texto corto 30
+RFSNF  Texto corto 30
+RFFONETICO  Texto corto 120
+RPAS  Texto corto 30
+RSAS  Texto corto 30
+RPNS  Texto corto 30
+RSNS  Texto corto 30
+RSOUNDEX  Texto corto 120
+RPAM  Texto corto 30
+RSAM  Texto corto 30
+RPNM  Texto corto 30
+RSNM  Texto corto 30
+RMETAPHONE  Texto corto 120
+CruceBDUA  Texto corto 10
+
+
+
+
+
+
+MS
+﻿TipoIdentidad  Texto corto 2
+NumIdentidad Texto corto 25
+PrimerApellido  Texto corto 25
+SegundoApellido  Texto corto 30
+PrimerNombre  Texto corto  25
+SegundoNombre  Texto corto 30
+FechaNacimiento  Texto corto 10
+Sexo  Texto corto 2 
+CodMunResidencia  Texto corto 5 
+CodTipoPobEsp  Texto corto 2
+Etnia  Texto corto 2
+NombreResguardo  Texto corto 100
+TipoEntidad  Texto corto 2
+NumEntidad  Texto corto  5
+NomEntidad  Texto corto 100
+FechaCorte  Texto corto 10
+TipoIdTitular  Texto corto 2
+NroIdTitular  Texto corto 25
+Estado  Texto corto 2
+NomEstado  Texto corto  100
+Id            Autonumeración  entero largo
+SerialBDUA    Número grande
+ID_Afiliado  Texto corto 40
+RFPAF  Texto corto 30
+RFSAF  Texto corto 30
+RFPNF  Texto corto 30
+RFSNF  Texto corto 30
+RFFONETICO  Texto corto 120
+RPAS  Texto corto 30
+RSAS  Texto corto 30
+RPNS  Texto corto 30
+RSNS  Texto corto 30
+RSOUNDEX  Texto corto 120
+RPAM  Texto corto 30
+RSAM  Texto corto 30
+RPNM  Texto corto 30
+RSNM  Texto corto 30
+RMETAPHONE  Texto corto 120
+CruceBDUA  Texto corto 10
+
+
+
+
+
+
+
+Municipios 
+CodDane texto corto 255 llave primaria 
+CodDto texto corto 255
+Mpio  texto corto  255
+NomMpio  texto corto  255
+Seleccionar  boleano 
+
+
+
+
+Seriales 
+SerialBDUA numerico llave primaria 
+Caso texto corto 255
+
+
+
+SerialNoSB_NoLC
+SerialBDUA  numerico  llave primaria 
+Caso texto corto 255
+
+
+
+
+
+XCasosEsp_BDUACorte
+Municipio    Texto corto 255
+CodDane    Texto corto 255
+NomMpio    Texto corto 255
+Afiliado de Oficio No SbIV    Número
+Grp 5 No SbIV     Número
+Grp 5 No SbIV - Auditoria ADRES AS y MS    Número
+PE No LC - Diferente GrP Número
+PE No LC - Diferente GrP - Auditoria ADRES AS y MS    Número
+PE No LC - No en LC Número
+PE No LC - No en LC - Auditoria ADRES AS y MS    Número
+Total de SerialBDUA    Número
+
+
+
+
+
+
+XLC_BDUACorte
+Municipio    Texto largo
+CodDane      Texto corto 255
+NomMpio     Texto corto 255
+1 - Habitantes de la Calle (Res_ 1838)   Número
+10 - Pob Infantil Vulnerable Bajo Proteccion de INst Diferentes    Número
+14 - Poblacion Reclusa (Res_ 1838)    Número
+16 - Poblacion de la Tercera Edad en Proteccion de Ancianatos (R    Número
+17 - Comunidades Indigenas (Res_ 1838)    Número
+18 - Comunidades ROM (Res_ 1838)     Número  
+24 - Migrantes  Colombianos Repatriados (Res_ 1838)    Número
+27 - Recién Nacidos y Menores de edad de Padres no Afiliados (Re     Número
+29 - Persona disc escasos recursos y condición abandono centros    Número
+30 - Migrante Ven con PEP e hijos menores de edad con documento    Número
+Total de SerialBDUA    Número
+RepLCMSPS    Número
+
+
+
+
+
+
+
+
+
+CREATE TABLE GrpPoblacional(
+CodGrpPob INTEGER(10) NOT NULL PRIMARY KEY,
+CodGrpPob2 VARCHAR(3) NOT NULL,
+GrpPoblacional VARCHAR(82) NOT NULL,
+LC2339 BOOLEAN (10) NOT NULL
+);
+
+
+
+
+
+
